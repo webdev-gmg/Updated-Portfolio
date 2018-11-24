@@ -1,12 +1,17 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
   /* Typography */
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: 'Black Han Sans', sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  /* background-image: url("../imgs/ignasi_pattern_s.png"); */
 }
 
+.foo{
+  background-image: url("https://ak9.picdn.net/shutterstock/videos/4028479/thumb/1.jpg");
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4i-3EJ8ymHonaVz3tlegirq3wqcku5vHRhCatwgm3aPTBpfNe"); */
+}
 html {
   /* Positioning */
   position: relative;
@@ -20,19 +25,21 @@ main {
   margin: 80px 0;
 }
 
+
+
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
-
+  background-color: black;
   padding: 30px;
   margin-bottom: 30px;
 }
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color: white;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
+  margin-left:100px;
 }
 
 /* NAV START */
@@ -50,7 +57,7 @@ main {
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1c2525;
+  color: white;
 }
 
 .navbar {
@@ -59,11 +66,11 @@ main {
 }
 
 /* media query for nav background color change */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .navbar-header {
     background-color: #4aaaa5;
   }
-}
+} */
 /* END NAV */
 
 
@@ -100,7 +107,8 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: black;
+  color:white;
 }
 
 .text-muted-footer {

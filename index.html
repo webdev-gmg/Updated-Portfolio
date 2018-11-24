@@ -21,14 +21,14 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-fixed navbar-expand-lg navbar-light" style="background-color:black">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html" id="logo">Godly George</a>
+        <a class="navbar-brand" href="index.html" id="logo" style="color:white">Godly George</a>
       </div>
       <button class="navbar-toggler collapsed ml-auto" data-toggle="collapse" data-target="#page-nav-collapse"
-        aria-expanded="false">
+        aria-expanded="false" style="color:white;background-color:white">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -37,14 +37,18 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="page-nav-collapse">
         <ul class="nav navbar-nav ml-auto">
+
           <li>
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#landing" style="color:white">Home</a>
           </li>
           <li>
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#contact" style="color:white">Contact</a>
           </li>
           <li>
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#portfolio" style="color:white">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about" style="color:white">About</a>
           </li>
         </ul>
       </div>
@@ -55,44 +59,70 @@
   <!-- End of navbar -->
 
   <!-- Start of container -->
-  <main class="container" id="about">
-    <section class="row">
-      <div class="col-md-12">
-        <article class="block">
-          <h1 class="block-header">About Me</h1>
-          <hr />
-
-          <div class="col-md-6">
-            <img src="https://media.licdn.com/dms/image/C4E03AQE1l2r1vYXtrA/profile-displayphoto-shrink_200_200/0?e=1548288000&v=beta&t=4J2uzTQcKMzP4HUk8DrjjEuod-5JAeRRTdG23aJOHZc"
-              alt="" id="about-image" />
+  <!-- <main class="container" id="about"> -->
+  <section class="row">
+    <div class="col-md-12" style="background-color:black">
+      <article class="block" style="background-color:#181818">
+        <h2 class="block-header text-center">About Me</h2>
+        <hr style="background-color:white" />
+        <div class="row foo" style="height:400px">
+          <div class="col-md-3">
+            <div class="pl-5">
+              <img src="https://media.licdn.com/dms/image/C4E03AQE1l2r1vYXtrA/profile-displayphoto-shrink_200_200/0?e=1548288000&v=beta&t=4J2uzTQcKMzP4HUk8DrjjEuod-5JAeRRTdG23aJOHZc"
+                alt="" id="about-image" />
+              <img src="" alt="" id="about-image" />
+            </div>
           </div>
 
+          <div class="col-md-8" style="color:white">
+            <h2><b>GODLY GEORGE</b></h2>
+            <div style="height:50px"></div>
 
-          <div class="col-md-12">
 
-            <i class="fas fa-graduation-cap"></i>
-            <h6><b>Bachelors in Computer Science and Engineering</b></h6>
-            <p>Kerala University</p>
+            <i class="fas fa-laptop">
+              <h5 class="pb-3">Application Support Analyst</h5>
+            </i>
+            <br />
+            <i class="fas fa-graduation-cap pb-5">
+              <h5>Computer Science and Engineering</h5>
+            </i>
 
-            <i class="fas fa-laptop"></i>
-            <h6><b>Application Support</b></h6>
-            <ul>
-              <li>Providing technical support to teams within the organisation, and to external clients when required</li>
-              <li>Identifying and resolving technical issues</li>
-              <li>Developing reports for teams</li>
-            </ul>
+            <div class="row">
+              <div class="col-md-4">
+                <i class="fas fa-wrench"></i>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+              </div>
+
+              <div class="col-md-4">
+                <i class="fas fa-database"></i>
+                <li>SQL</li>
+                <li>Firebase</li>
+                <li>Oracle</li>
+
+              </div>
+            </div>
           </div>
-        </article>
-      </div>
-    </section>
 
-    <!--Portfolio-->
-    <section class="row" id="portfolio">
-      <div class="col-md-12">
-        <article class="block">
-          <h1 class="block-header">Portfolio</h1><i>Main Projects</i>
-          <hr />
+        </div>
 
+
+    </div>
+
+
+    </article>
+    </div>
+  </section>
+
+  <!--Portfolio-->
+  <section class="row" id="portfolio">
+    <div class="col-md-12" style="background-color:black">
+      <article class="block">
+        <h2 class="block-header text-center">Projects</h2><i>Main Projects</i>
+        <hr style="background-color:white" />
+        <div class="container">
           <div class="row">
             <!-- Train Schedule -->
             <div class="col-md-4">
@@ -141,47 +171,49 @@
 
             </div>
           </div>
+        </div>
 
 
 
-
-          <!-- <div class="col-md-4">
+        <!-- <div class="col-md-4">
                 <a href="google.com"> <img class="img-fluid port-image" src="https://i.ytimg.com/vi/CGWoGg1BKoY/hqdefault.jpg"
                     alt="Train Schedule"></a>
               </div> -->
-      </div>
-      </article>
-      </div>
-    </section>
+    </div>
+    </article>
+    </div>
+  </section>
 
-    <!-- End of Portfolio -->
+  <!-- End of Portfolio -->
 
 
-    <!--Contact-->
-    <section class="row" id="contact">
-      <div class="col-md-12">
-        <article class="block">
-          <h1 class="block-header">Let's Get In Touch!</h1>
-          <hr />
-          <div class="container">
-            <!-- <div class="col-md-4">
+  <!--Contact-->
+  <section class="row" id="contact">
+    <div class="col-md-12" style="background-color: black">
+      <article class="block" style="background-color:#181818">
+        <h2 class="block-header text-center">Let's Get In Touch!</h2>
+        <hr style="background-color:white" />
+        <div class="foo" style="color:white">
+          <!-- <div class="col-md-4">
               <p><i class="fas fa-phone"></i> 123-456-7890</p>
               <br />
             </div> -->
-            <div class="col-md-4">
-              <p><i class="fas fa-envelope"></i> godly.mg2@gmail.com</p>
-              <!-- https://www.linkedin.com/in/godly-george-a3946b88/ -->
-            </div>
-            <br />
-            <div class="col-md-4">
-              <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/godly-george-a3946b88/">Godly
-                  George</a></p>
-              <br />
-            </div>
+            <div class="container">
+          <div class="col-md-4">
+            <p><i class="fas fa-envelope"></i> godly.mg2@gmail.com</p>
+            <!-- https://www.linkedin.com/in/godly-george-a3946b88/ -->
           </div>
-        </article>
-      </div>
-    </section>
+          <br />
+          <div class="col-md-4">
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/godly-george-a3946b88/">Godly
+                George</a></p>
+            <br />
+          </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
   </main>
   <!-- End of Contact -->
 
